@@ -19,15 +19,38 @@ You need HTTPS to use this plugin, after installing a valid SSL certificate on y
 
 == Installation ==
 
-From your WordPress dashboard
-Visit 'Plugins > Add New'
-Search for 'Chrome Push Notifications'
-Activate Chrome Push Notifications from your Plugins page.
-Go to 'Chrome Push > Settings' to set up the project number and API key received from Google Developer Console.
+Requirements:
+
+- A valid SSL certificate so your website can be accessed through HTTPS (even a free one from cloudflare.com will do the work)
+
+- Chrome 42+ (Desktop & Android)
+
+Installation:
+
+1. Install the Chrome Push Notifications Plug-in 
+
+2. Go to Google Developers Console, create a new project (activate the Cloud Messaging API)
+
+3. Open the new project, go to “Overview” and copy the “Project Number”
+
+4. Go to APIs & auth > Credentials and click “Create a new key”
+
+5. Select “Server Key”, you may enter your server IP if you want or leave it blank
+
+6. Copy the “API Key” generated.
+
+7. Go to your wordpress dashboard, Chrome Push > Settings and paste the Project number and API 
+
+key into the plugin settings.
+
+8. Upload an icon or logo, and click save.
+
+9. That's it!
+
 
 == Frequently Asked Questions ==
 
-Go to: https://github.com/aglipanci/wp-chrome-web-push/
+Go to: https://github.com/aglipanci/chrome-push-notifications
 
 == Screenshots ==
 
