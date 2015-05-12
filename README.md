@@ -31,6 +31,7 @@ Comming soon:
 - User statistics
 - Notifications statistics
 
+Demo URL: https://www.aglipanci.com
 
 
 == Installation ==
