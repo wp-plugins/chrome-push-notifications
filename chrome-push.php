@@ -3,7 +3,7 @@
 Plugin Name: Chrome Push Notifications
 Plugin URI: http://www.github.com/aglipanci
 Description: Chrome Push Notifications GCM
-Version: 1.0.4
+Version: 1.0.5
 Author: Agli Panci
 Author URI: http://www.aglipanci.com/
 */

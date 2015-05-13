@@ -38,11 +38,18 @@ Demo URL: https://www.aglipanci.com
 
 Requirements:
 
-- A valid SSL certificate so your website can be accessed through HTTPS (even a free one from cloudflare.com will do the work)
+- A valid SSL certificate so your website can be accessed through HTTPS (even a free one from cloudflare.com will do the work). Check this guide to configure the Flexible SSL by Cloudflare: https://wordpresscheat.com/wordpress-cloudflare-flexible-ssl-guide/
 
 - Chrome 42+ (Desktop & Android)
 
 Installation:
+
+How to Install and Configure the Plugin
+
+[youtube https://www.youtube.com/watch?v=yHzz3Ui2yS4]
+
+
+Follow this steps:
 
 1. Install the Chrome Push Notifications Plug-in 
 

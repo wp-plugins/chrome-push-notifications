@@ -343,8 +343,12 @@ class WPChromePush {
 	    $apiKey = get_option('web_push_api_key');
 	    $url = 'https://android.googleapis.com/gcm/send';
 	    $id = $this->getClientIds();
-		
-		if($id >= 1000) {
+			
+		if(empty($id)) {
+			return 'No subscribers on your site yet!';
+		}
+
+		if(count($id) >= 1000) {
 			$newId = array_chunk($id, 1000);
 			foreach ($newId as $inner_id) {
 				$fields = array(
